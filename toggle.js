@@ -13,11 +13,11 @@ console.log('getColorMnu');
 
 let getToggleMnu = document.getElementsByClassName("toggleMnu");
 
-document.querySelector(".home").onclick = document.body.style.background = function() {togglecolor('grey')};
-document.querySelector(".red").onclick = document.body.style.background = function() {togglecolor('red')};
-document.querySelector(".orange").onclick = document.body.style.background = function() {togglecolor('orange')};
-document.querySelector(".purple").onclick = document.body.style.background = function() {togglecolor('purple')};
-document.querySelector(".green").onclick = document.body.style.background = function() {togglecolor('green')};
+document.querySelector(".home").onclick = function() {togglecolor('grey')};
+document.querySelector(".red").onclick =  function() {togglecolor('red')};
+document.querySelector(".orange").onclick = function() {togglecolor('orange')};
+document.querySelector(".purple").onclick = function() {togglecolor('purple')};
+document.querySelector(".green").onclick = function() {togglecolor('green')};
 document.querySelector(".toggleMnu").onclick =  function() {toggleMnustat()};
 
 
